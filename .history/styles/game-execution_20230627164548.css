@@ -74,11 +74,6 @@ hr{
     color: white;
 }
 
-#score-section{
-    width: 90%;
-    margin: 0 5%;
-}
-
 #score-container{
     display: none;
     text-align: center;

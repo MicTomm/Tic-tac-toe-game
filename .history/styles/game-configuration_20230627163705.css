@@ -8,7 +8,7 @@
 
 #game-configuration-container{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     margin-bottom: 2.5rem;
@@ -17,7 +17,7 @@
 #player1-container,
 #player2-container{
     background-color: rgb(241, 245, 245);
-    margin: 1rem 1rem;
+    margin: 0rem 1rem;
     padding: 2rem 0rem;
     display: flex;
     flex-flow: column;
@@ -56,18 +56,6 @@
 
 #start-game-btn:hover{
     background: linear-gradient(70deg, rgb(152, 228, 40), rgb(70, 70, 242));
-}
-
-@media (min-width: 48rem) {
-    
-    #game-configuration-container{
-        display: flex;
-        flex-flow: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 2.5rem;
-    }
-    
 }
 
 

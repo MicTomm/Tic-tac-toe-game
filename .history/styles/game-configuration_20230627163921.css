@@ -17,7 +17,7 @@
 #player1-container,
 #player2-container{
     background-color: rgb(241, 245, 245);
-    margin: 1rem 1rem;
+    margin: 0rem 1rem;
     padding: 2rem 0rem;
     display: flex;
     flex-flow: column;
