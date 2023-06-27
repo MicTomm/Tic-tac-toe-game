@@ -1,0 +1,62 @@
+#game-configuration{  
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 2.5rem auto;
+    width: 90%;
+}
+
+#game-configuration-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+#player1-container,
+#player2-container{
+    background-color: rgb(241, 245, 245);
+    margin: 0rem 1rem;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+}
+
+#game-configuration p{
+    color: rgb(27, 27, 27, 0.6);
+    font-weight: bold;
+}
+
+#game-configuration .symbol{
+    margin: 0rem 0rem 1rem 0rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(70, 70, 242);
+    text-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+}
+
+#start-game-container{
+    display: block;
+
+}
+
+#start-game-btn{
+    padding: 1.5rem;
+    border-radius: 20rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+#start-game-btn:hover{
+    background: linear-gradient(70deg, rgb(152, 228, 40), rgb(70, 70, 242));
+}
+
+

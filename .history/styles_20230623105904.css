@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 232, 232);
+    font-family: 'Newsreader', serif;
+    color: rgb(27, 27, 27);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#main-header{
+    background: linear-gradient(70deg, rgb(70, 70, 242), rgb(110, 110, 241));
+    color: white;
+    padding: 0.5rem 5%;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(110, 110, 241);
+    border-color: rgb(110, 112, 241);
+    color: white;
+    border-radius: 8px;
+    padding: 0.3rem 0.5rem;
+}
+
+.alternative-btn{
+    background-color: rgb(223, 223, 239);
+    border-color: transparent;
+    color: rgb(27, 27, 27);
+    margin: 0.5rem;   
+}
+
+.btn:hover{
+    background-color:  rgb(127, 127, 233);
+    box-shadow: 1px 1px 2px rgb(27, 27, 27);
+}
+
+.alternative-btn:hover{
+    background-color: rgb(210, 210, 235);
+    border-color: rgb(205, 205, 233);
+}
+
+#aside-container{
+    text-align: center;
+    background-color: rgb(241, 245, 245);
+    width: 45%;
+    margin: 3rem auto;
+    border-radius: .6rem;
+    padding: .5rem 0rem;
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#aside-container:target{
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+}
+
+aside h2,
+aside label{
+    color: rgb(110, 110, 241);
+    text-shadow: .5px .5px 1px rgb(27, 27, 27, 0.5);
+}
+
+form label{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+form input{
+    padding: .3rem;
+    border-color: transparent;
+    border-radius: 8px;
+    
+}
+
+form input:hover, form input:focus {
+    outline: rgb(110, 110, 241) auto 1px;
+}
+
+form #aside-buttons-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}

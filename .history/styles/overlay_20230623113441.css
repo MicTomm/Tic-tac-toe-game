@@ -1,0 +1,23 @@
+#aside-container{
+    text-align: center;
+    background-color: rgb(241, 245, 245);
+    width: 45%;
+    margin: 3rem auto;
+    border-radius: .6rem;
+    padding: .5rem 0rem;
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 27.5%;
+}
+
+@media (min-width: 48rem) {
+    
+    #aside-container{
+        position: fixed;
+        top: 20%;
+        left: (50% - 20rem);
+        width: 40rem;
+    }
+
+}

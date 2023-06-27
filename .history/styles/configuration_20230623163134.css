@@ -1,0 +1,40 @@
+#game-configuration{  
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#player1-container,
+#player2-container{
+    background-color: rgb(241, 245, 245);
+    margin: 0rem 1rem;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+}
+
+#game-configuration h2{
+    margin: 0rem;
+    color: rgb(27, 27, 27, 0.8);
+}
+
+#game-configuration p{
+    color: rgb(27, 27, 27, 0.8);
+    font-weight: bold;
+}
+
+#game-configuration .symbol{
+    margin: 0rem 0rem 1rem 0rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(70, 70, 242);
+    text-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+}
+
+

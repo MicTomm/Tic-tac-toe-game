@@ -1,0 +1,30 @@
+aside h2,
+aside label{
+    color: rgb(110, 110, 241);
+    text-shadow: .5px .5px 1px rgb(27, 27, 27, 0.5);
+}
+
+form label{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+form input{
+    padding: .3rem;
+    border-color: transparent;
+    border-radius: 8px; 
+    font-family: inherit;   
+}
+
+form input:hover, 
+form input:focus {
+    outline: rgb(110, 110, 241) auto 1px;
+}
+
+form #aside-buttons-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}

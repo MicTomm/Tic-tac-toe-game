@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link href="/styles/overlay.css" rel="stylesheet">
+    <link href="/styles/game-configuration.css" rel="stylesheet">
+    <link href="/styles/game-execution.css" rel="stylesheet">
+    <script src="js-code" defer></script>
+</head>
+
+<body>
+    <div class="back-drop" id="back-drop"></div>
+    <header id="main-header">
+        <h1>Tic-Tac-Toc game</h1>
+        <p>Made with HTML, CSS and Javascript</p>
+    </header>
+    <main>
+        <aside id="aside-container">
+            <header id="id=" aside-header>
+                <h2>Chose your name</h2>
+            </header>
+            <form>
+                <div id="aside-input-container">
+                    <label for="choosing-player-name">Player name</label>
+                    <input type="text" id="choosing-player-name">
+                </div>
+                <div id="aside-buttons-container">
+                    <button type="button" class="btn alternative-btn" id="cancel-btn">
+                        <a href="/">Cancel</a>
+                    </button>
+                    <button type="submit" class="btn">Confirm</button>
+                </div>
+            </form>
+        </aside>
+        <section id="game-configuration">
+            <article>
+                <div id="player1-container">
+                    <h2>Player 1</h2>
+                    <p>Player Name</p>
+                    <p class="symbol">X</p>
+                    <button id="edit-p1-btn" class="btn">Edit</button>
+                </div>
+            </article>
+            <article>
+                <div id="player2-container">
+                    <h2>Player 2</h2>
+                    <p>Player Name</p>
+                    <p class="symbol">O</p>
+                    <button id="edit-p2-btn" class="btn">
+                        <a href="#aside-container">Edit</a>
+                    </button>
+                </div>
+            </article>
+        </section>
+        <section id="game-execution">
+            <button type="button" id="start-game" class="btn">Start a new game</button>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+
+                <li></li>
+                <li></li>
+                <li></li>
+
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+
+</html>

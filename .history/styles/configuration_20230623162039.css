@@ -1,0 +1,22 @@
+#game-configuration{  
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#game-configuration h2{
+    
+}
+
+#player1-container,
+#player2-container{
+    background-color: rgb(241, 245, 245);
+    margin: 0rem 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border-radius: 8px;
+}
+

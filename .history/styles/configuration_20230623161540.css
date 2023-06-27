@@ -1,0 +1,10 @@
+#game-configuration{  
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#player1-container,
+#player2-container{
+    background-color: 241, 245, 245;
+}

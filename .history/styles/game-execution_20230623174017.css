@@ -1,0 +1,11 @@
+#game-execution{
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    /* display: none; */
+}
+
+#game-over{
+    background-color: blue;
+}
+

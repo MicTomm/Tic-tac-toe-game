@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link href="/styles/overlay.css" rel="stylesheet">
+    <link href="/styles/game-configuration.css" rel="stylesheet">
+    <link href="/styles/game-execution.css" rel="stylesheet">
+    <script src="/scripts/configuration.js" defer></script>
+    <script src="/scripts/game.js" defer></script>
+    <script src="/scripts/app.js" defer></script>
+</head>
+
+<body>
+    <div id="back-drop"></div>
+    <header id="main-header">
+        <h1>Tic-Tac-Toc game</h1>
+        <p>Made with HTML, CSS and Javascript</p>
+    </header>
+    <main>
+        <aside id="aside-container">
+            <header id="id=" aside-header>
+                <h2>Chose your name</h2>
+            </header>
+            <form>
+                <div id="aside-input-container">
+                    <label for="choosing-player-name" id="choosing-player-name-label">Player name</label>
+                    <input type="text" id="choosing-player-name" name="player-name" required>
+                    <div id = "input-validation-error-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                        </svg>
+                        <p id="input-validation-error"></p>
+                    </div>
+                        
+                </div>
+                <div id="aside-buttons-container">
+                    <button type="button" class="btn alternative-btn" id="cancel-btn">
+                        Cancel
+                    </button>
+                    <button type="submit" class="btn">Confirm</button>
+                </div>
+            </form>
+        </aside>
+        <section id="game-configuration">
+            <div id="game-configuration-container">
+                <article>
+                    <div id="player1-container">
+                        <h2>Player 1</h2>
+                        <p id="player1-name">Player Name</p>
+                        <p class="symbol">X</p>
+                        <button id="edit-p1-btn" class="btn" data-playerid="1">Edit</button>
+                    </div>
+                </article>
+                <article>
+                    <div id="player2-container">
+                        <h2>Player 2</h2>
+                        <p id="player2-name">Player Name</p>
+                        <p class="symbol">O</p>
+                        <button id="edit-p2-btn" class="btn" data-playerid="2">Edit</button>
+                    </div>
+                </article>
+            </div>
+            <div id="start-game-container">
+                <button type="button" id="start-game-btn" class="btn">Start a new game</button>
+            </div>
+        </section>
+        <section id="game-execution">
+
+            <div id="score-container">
+                <h2>Score</h2>
+                <div id="p1-score">
+                    <p><span></span></p>
+                </div>
+                <div id="p2-score">
+                    <p><span></span></p>
+                </div>
+            </div>
+
+            <article id="game-over">
+                <h2>You won, <span id="winner-player-name">PLAYER NAME</span>!</h2>
+                <p>Click the "Start New Game" button above, to start a new game!</p>
+            </article>
+
+            <p id="p-turn">It's your turn <span id="active-player-name">PLAYER NAME</span> !</p>
+            <ol id="game-board">
+                <li value="1"></li>
+                <li value="2"></li>
+                <li value="3"></li>
+
+                <li value="4"></li>
+                <li value="5"></li>
+                <li value="6"></li>
+
+                <li value="7"></li>
+                <li value="8"></li>
+                <li value="9"></li>
+            </ol>
+        </section>
+        </section>
+    </main>
+
+</body>
+
+</html>

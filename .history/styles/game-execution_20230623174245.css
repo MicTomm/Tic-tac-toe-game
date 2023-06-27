@@ -1,0 +1,13 @@
+#game-execution{
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    /* display: none; */
+}
+
+#game-over{
+    margin: 0rem auto;
+    padding: 1.5rem;
+    background-color: blue;
+}
+

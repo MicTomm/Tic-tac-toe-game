@@ -1,0 +1,107 @@
+hr{
+    border: .02rem solid rgb(143, 143, 242);
+    box-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+}
+
+#game-execution{
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    display: none; 
+}
+
+#game-over{
+    display: none;
+    margin: 0rem auto;
+    padding: 1rem;
+    background: linear-gradient(70deg, rgb(68, 68, 248), rgb(143, 143, 242));
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+    max-width: 40rem;
+}
+
+#game-over p{
+    color: white;
+    text-shadow: .5px .5px 1px rgb(27, 27, 27, 0.5);
+    font-weight: 400;
+}
+
+#p-turn{
+    color: rgb(67, 74, 67);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: .5px .5px 1px rgb(27, 27, 27, 0.8);
+    display: none;
+}
+
+#active-player-name{
+    color: rgb(38, 177, 38);
+}
+
+#game-board{
+    display: none;
+    justify-content: center;
+    grid-template-columns: repeat(3, 6rem); /*lo stesso che scrivere 6rem 6rem 6rem*/
+    grid-template-rows: repeat(3, 6rem);
+    list-style: none;   
+    gap: .5rem;
+    padding: 0rem;
+}
+
+#game-execution li{
+    background-color: rgb(143, 143, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(27, 27, 27, 0.5)l;
+    font-weight: 700;
+    text-shadow: .5px .5px 1px rgb(255, 255, 255, 0.7);
+    font-size: 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#game-execution li:hover{
+    background-color: rgb(68, 68, 248);
+    text-shadow: .5px .5px 1px rgb(27, 27, 27);
+    color: white;
+}
+
+#game-execution li.disabled{
+    background-color: rgb(68, 68, 248);
+    text-shadow: .5px .5px 1px rgb(27, 27, 27);
+    cursor: default;
+    color: white;
+}
+
+#score-container{
+    display: block;
+    text-align: center;
+    background-color: rgb(241, 245, 245);
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+    max-width: 40%;
+    margin: 1rem auto;
+}
+
+#score-players-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#score-players-div p{
+    color: rgb(27, 27, 27, 0.6);
+    font-weight: bold;
+}
+
+#score-players-div span{
+    margin: .5rem 0rem;
+    padding: .5rem;
+    background-color: greenyellow;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(27, 27, 27, 0.5);
+}
+

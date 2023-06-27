@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 232, 232);
+    font-family: 'Newsreader', serif;
+}
+
+#main-header{
+    background: linear-gradient(70deg, rgb(70, 70, 242), rgb(110, 110, 241));
+    color: white;
+}
